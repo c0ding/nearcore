@@ -71,3 +71,6 @@ name = "neard"
 [[bin]]
 path = "src/../src/main.rs"
 name = "near"
+
+[profile.release]
+debug = true
